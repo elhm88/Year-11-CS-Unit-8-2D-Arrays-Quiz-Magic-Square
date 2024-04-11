@@ -4,8 +4,8 @@ Ensure that you read all instructions carefully. Do not include any additional m
 
 <b>Task</b>: In the MagicSquare class you will implement <b>five</b> methods.
 * <b>checkSum</b>: This method takes a 2D array of integers and returns the sum of the first row of the 2D array. 
-* <b>magicRows</b>: This method takes a 2D array of integers and a checkSum and returns returns a boolean value depending on whether the sum of each row in the 2D array is equal to checkSum or not.
-* <b>magicColumns</b>: This method takes a 2D array of integers and a checkSum and returns returns a boolean value depending on whether the sum of each column in the 2D array is equal to checkSum or not.
+* <b>magicRows</b>: This method takes a 2D array of integers and a checkSum and returns a boolean value depending on whether the sum of each row in the 2D array is equal to checkSum or not.
+* <b>magicColumns</b>: This method takes a 2D array of integers and a checkSum and returns a boolean value depending on whether the sum of each column in the 2D array is equal to checkSum or not.
 * <b>magicDiagonals</b>: This method takes a 2D array of integers and a checkSum and returns a boolean value depending on whether the sum of each of the main two diagonals in the 2D array is equal to checkSum or not.
 * <b>isMagic</b>: This method takes a 2D array of integers and returns a boolean value depending on whether the 2D array is magic or not. 
 
@@ -55,7 +55,7 @@ int[][] array2d = { {2,7,6}, {9,5,1}, {4,3,8} };
 
 <br>
 
-Note that you solution must work for a 2D array of size n x n.
+Note that you solution must work for a 2D array of any size n x n.
 
 Note also that the 2D array will be a square. That is, it will have the same number of rows as columns, and all rows will be of the same length.
 
